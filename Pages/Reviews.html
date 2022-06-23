@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Link a CSS -->
+  <link rel="stylesheet" href="../style.css">
+  <!-- Link a Icono -->
+  <link rel="icon" href="../Multimedia/Images/control.svg">
+  
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap');
+  </style>
+
+  <title>Control Games</title>
+
+</head>
+  <body>
+
+    <div class="grid-articulos">
+
+          <!--Cabecera-->
+          <header id="cabecera">
+            <div class="cabecera">
+              <a href="../index.html"> <img src="../Multimedia/Images/control.svg" class="cabecera__logo"></a>
+              <img src="../multimedia/Images/megagames.jpg" alt="megabackground" class="cabecera__background">      
+  
+              <!-- Zona navegable-->
+              <nav class="cabecera__lista">
+                <div>
+                  <ul class="cabecera__lista__item">
+                      <!--Menu-->
+                      <li class="cabecera__lista__item__menu">
+                          <a href="../index.html" class="cabecera__lista__item__menu__boton">Inicio</a>
+                      </li>
+                      <li class="cabecera__lista__item__menu">
+                          <a href="../pages/Cuenta.html" class="cabecera__lista__item__menu__boton">Cuenta</a> 
+                      </li>               
+                      <li class="cabecera__lista__item__menu">
+                          <a href="../pages/Noticias.html" class="cabecera__lista__item__menu__boton">Noticias</a>
+                      </li>
+                      <li class="cabecera__lista__item__menu">
+                          <a href="../pages/Reviews.html" class="cabecera__lista__item__menu__boton">Reviews</a>
+                      </li>
+                      <li class="cabecera__lista__item__menu">
+                          <a href="../pages/Tienda.html" class="cabecera__lista__item__menu__boton">Tienda</a>
+                      </li>
+                  </ul> 
+                </div>
+                <div>
+                      <form action="search" class="cabecera__lista__busqueda">
+                        <div>
+                        <input type="search" 
+                          class="cabecera__lista__busqueda__barra" name="busquedacodigo" pattern="[A-Za-z0-9]{8,20}" title="search" required >
+                        </div>  
+                        <div>
+                          <input type="submit" value="Buscar" class="cabecera__lista__busqueda__boton">          
+                        </div>
+                      </form>
+                </div> 
+              </nav>
+            </div>
+          </header>
+
+  
+      <!-- Enlace a Reviews -->
+      <main id="noticias">
+        <div>
+          <ul class="noticias__lista">
+            <li>
+                <a href="../Pages/Reviews/Review1.html" class="noticias__lista__item"><h2>Análisis Elden Ring: la nueva obra maestra de FromSoftware (Xbox Series X/S, PS5, PS4, Xbox One, PC)</h2>
+                <img src="../Multimedia/Images/Eldenthumb.jpg" width="200px" class="noticias__lista__item__foto" alt="Eldennoticia">
+                </a>
+            </li>
+            <li>
+                <a href="../Pages/Reviews/Review2.html" class="noticias__lista__item"><h2>Análisis Horizon Forbidden West, una secuela imprescindible (PS5, PS4)</h2>
+                <img src="../Multimedia/Images/Horizonthumb2.jpg" width="200px" class="noticias__lista__item__foto" alt="Horizonnoticia"></a>
+              </li>             
+          </ul>
+        </div>
+      </main>
+      <aside id="aside">
+        <div class="aside">
+          <div class="aside__foto">
+            <img src="../multimedia/Images/Proximoslanz.png" class="aside__foto__item" alt="top10">
+          </div>  
+        </div>
+      </aside>
+
+        <!-- Pie de Página -->
+        <footer id="footer">
+          <section id="footer__redes">
+            <div class="footer__redes">
+              <p><h5>Síguenos</h5></p>
+            </div>
+            <div>
+              <ul class="footer__redes">
+                <li class="footer__redes__item">
+                  <a href="http://www.instagram.com" target="_blank"><img src="../Multimedia/Images/IGLogo.png" rel="noopener noreferrer"></a>
+              </li>
+                <li class="footer__redes__item">
+                  <a href="http://www.facebook.com" target="_blank"><img src="../Multimedia/Images/FBLogo.png" rel="noopener noreferrer"></a>
+                </li>
+                <li class="footer__redes__item">
+                  <a href="http://www.twitter.com" target="_blank"><img src="../Multimedia/Images/TwLogo.png" rel="noopener noreferrer"></a>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="footer__contacto">
+            <!--Mapas con iframe-->
+            <div>
+              <ul>
+                <!-- <li class="footer__contacto__item">
+                  <p><h4>Dirección</h4></p>
+                </li>
+                <li class="footer__contacto__item__mapa">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13317.118301827668!2d-70.65894631117831!3d-33.44202199392546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5a138c9165b%3A0xc5710ab2432b6373!2sEurocentro!5e0!3m2!1ses-419!2scl!4v1653350912169!5m2!1ses-419!2scl" width="500" height="200" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="footer__ contacto__item"></iframe>
+                </li> -->
+                <li class="footer__contacto__item">
+                  <p class="footer__contacto__item"><h4>Contacto</h4></p>
+                </li>
+                <li class="footer__contacto__item">
+                  <p class="footer__contacto__item"><h4>+56 5555-5555</h4></p>
+                </li>
+                <li class="footer__contacto__item">
+                  <p class="footer__contacto__item"><h5>© 2022 Control Games ® | Todos los derechos reservados</h5></p>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </footer>
+    </div>
+  </body>
+</html>
