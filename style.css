@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+#body {
   font-family: arial;
   background-color: #209bf1;
   margin: auto;
@@ -31,7 +31,7 @@ body {
 }
 
 /* Probando media query */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
 
   body {
     font-size: 90%;
@@ -66,7 +66,7 @@ body {
   .grid-container #footer {
     grid-column: 1/-1;
   }
-}
+} */
 
 /* Header */
 
@@ -90,81 +90,33 @@ body {
   height: auto;
 }
 
-/* Barra de Navegación */
-
-.cabecera__lista {
-  font-size: 2vw;
-  font-weight: 600;
-  font-family: 'Open Sans', sans-serif;
+#navbarDropdown, .nav-item, .nav-link, .navbar-nav {
   color: white;
-  display: flex;
-  justify-content: space-between;
-  background-color:#345bb3;
-  padding: 2% 2% 2% 2%;
+  font-weight: bold;
 }
 
-.cabecera__lista__item {
-  display: flex;
-  padding: 0% 2% 2% 2%; 
-
+ .dropdown-item, .navbar-toggler  {
+  color:#209bf1;
+  font-weight: bold;
 }
 
-.cabecera__lista__item__menu {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0% 5% 0% 0%;
-}
-
-.cabecera__lista__item__menu__boton {
-  text-decoration: none;
-  color: aliceblue;
-}
-
-.cabecera__lista__item__menu__boton:hover { 
-  background-color:aliceblue;
-  color:#017bab;
-  border-radius: 3px 3px 3px 3px;
-  margin: 0% 5% 0% 5%;
-}
-
-.cabecera__lista__busqueda {
-  font-size: 2vw;
-  margin-top: 0%;
-  margin-left: 15%;
-  margin-right: 4%;
-  font-weight: 600;
-  font-family: 'Open Sans', sans-serif;
-  color: white;
-  background-color:#345bb3;
-  display: flex;
-  justify-content: end;
-}
-
-.cabecera__lista__busqueda__barra {
-  width: 95%;
-  height: auto;
-  background-color:white;
-  border-color:#3683f6;
-}
-
-.cabecera__lista__busqueda__boton {
-  height: auto;
-  width: 100%;
-  font-weight: 600;
-  background-color: #3683f6;
-  border-color:#3683f6;
-  color: white; 
-}
-
-.cabecera__lista__busqueda__boton:hover { 
-  background-color:aliceblue;
-  color:#017bab;
-  border-radius: 10%;
+.btn{
+  color:white;
+  background-color: #209bf1;
+  border-color: #0a7bcb;
+  font-weight: bold;
 }
 
 /* Slide de fotos con animación */
 
-.slider {
+#carouselFade {
+  width: inherit;
+  height: 100%;
+  display: grid;
+  grid-area: slider;
+}
+
+/* .slider {
   width: 100%;
   height: auto;
   margin-bottom:33%;
@@ -242,7 +194,7 @@ body {
   60%{opacity: 0;}
   80%{opacity: 1;}
   100%{opacity: 0;}
-}
+} */
 
 /* Publicidad con video y enlace a compra */
 
