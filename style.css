@@ -14,7 +14,7 @@
 
 /* Aplicando grid en pagina home */
 
-/* .grid-home {
+.grid-home {
   display: grid;
   gap: 10px;
   grid-column: 1fr;
@@ -28,7 +28,7 @@
   ' articulo articulo   side '
   ' banner   banner    banner'
   ' footer   footer    footer';
-} */
+}
 
 /* Probando media query */
 /* @media screen and (max-width: 768px) {
@@ -332,6 +332,11 @@
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
 
+.login {
+  display: grid;
+  grid-area: cuenta;
+}
+
 .login-page {
   background-color: #4f4d6f;
   margin-top: 1%;
@@ -408,7 +413,7 @@ h6 span {
   height: 36px;
   border-radius: 50%;
   color: #ffeba7;
-  background-color: #017bab;
+  background-color: #102770;
   font-family: 'unicons';
   content: '\eb4f';
   z-index: 20;
@@ -423,10 +428,9 @@ h6 span {
   transform: translateX(44px) rotate(-270deg);
 }
 
-
 .card-3d-wrap {
   position: relative;
-  width: 600px;
+  width: 500px;
   max-width: 100%;
   height: 600px;
   -webkit-transform-style: preserve-3d;
@@ -479,7 +483,6 @@ h6 span {
   z-index: 20;
   display: block;
 }
-
 
 .form-group{ 
   position: relative;
@@ -610,7 +613,7 @@ h6 span {
 }
 
 
-/* .grid-cuenta {
+.grid-cuenta {
   display: grid;
   gap: 10px;
   grid-column: 1fr;
@@ -619,7 +622,7 @@ h6 span {
   '   header  header  header '
   '   cuenta cuenta cuenta '
   ' footer   footer    footer';
-} */
+}
 
 /* #form {
   padding: 2%;
@@ -873,7 +876,7 @@ h5 {
 }
 
 .wrapper:hover {
-  animation: card 1s  0s 1 normal forwards;
+  animation: card 0.5s  0s 0.5 normal forwards;
 }
 
 @keyframes card {
