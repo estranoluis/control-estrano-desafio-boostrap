@@ -39,13 +39,8 @@
                   <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="../index.html">Home</a>
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle " href="../pages/Cuenta.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Cuenta
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="../Pages/Sesion.html">Inicia sesión</a></li>
-                      <li><a class="dropdown-item" href="../Pages/Cuenta.html">Regístrate</a></li>
-                    </ul>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../Pages/Cuenta.html">Cuenta</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="../Pages/Noticias.html">Noticias</a>
@@ -53,8 +48,15 @@
                   <li class="nav-item">
                     <a class="nav-link" href="../Pages/Reviews.html">Reviews</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../Pages/Tienda.html">Tienda</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="../pages/tienda.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tienda
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="../pages/tienda.html">Juegos</a></li>
+                      <li><a class="dropdown-item" href="../pages/tienda.html">Accesorios</a></li>
+                      <li><a class="dropdown-item" href="../pages/tienda.html">Figuras</a></li>
+                      <li><a class="dropdown-item" href="../pages/tienda.html">Apparel</a></li>
+                    </ul>
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -69,7 +71,7 @@
 
   <!-- Formulario inicio de Regsitro -->
     <main id="form">
-        <section class="form-register">
+        <!-- <section class="form-register">
             <h5>Registrar</h5>
             <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
             <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
@@ -78,7 +80,62 @@
             <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
             <input class="buttons" type="submit" value="Registrar">
             <p><a href="../Pages/Sesion.html">¿Ya tienes Cuenta?</a></p>
-          </section>
+          </section> -->
+
+          <div class="login-page">
+            <div class="container">
+              <div class="row full-height justify-content-center">
+                <div class="col-12 text-center align-self-center py-3">
+                  <div class="section pb-5 pt-5 pt-sm-2 text-center">
+                    <h6 class="mb-0 pb-3"><span>Iniciar</span><span>Registrar</span></h6>
+                          <input class="checkbox" type="checkbox" id="reg-log" name="reg-log"/>
+                          <label for="reg-log"></label>
+                    <div class="card-3d-wrap mx-auto">
+                      <div class="card-3d-wrapper">
+                        <div class="card-front">
+                          <div class="center-wrap">
+                            <div class="section text-center">
+                              <h4 class="mb-4 pb-3">Inicia sesión</h4>
+                              <div class="form-group">
+                                <input type="email" name="logemail" class="form-style" placeholder="Ingresa tu Correo" id="logemail" autocomplete="off">
+                                <i class="input-icon uil uil-at"></i>
+                              </div>	
+                              <div class="form-group mt-2">
+                                <input type="password" name="logpass" class="form-style" placeholder="Ingresa tu Contraseña" id="logpass" autocomplete="off">
+                                <i class="input-icon uil uil-lock-alt"></i>
+                              </div>
+                              <a href="#" class="btn mt-4">Ingresar</a>
+                                            <p class="mb-0 mt-4 text-center"><a href="#0" class="link">Olvidaste tu contraseña?</a></p>
+                                </div>
+                              </div>
+                            </div>
+                        <div class="card-back">
+                          <div class="center-wrap">
+                            <div class="section text-center">
+                              <h4 class="mb-4 pb-3">Regístrate</h4>
+                              <div class="form-group">
+                                <input type="text" name="logname" class="form-style" placeholder="Nombre Completo" id="logname" autocomplete="off">
+                                <i class="input-icon uil uil-user"></i>
+                              </div>	
+                              <div class="form-group mt-2">
+                                <input type="email" name="logemail" class="form-style" placeholder="Ingresa tu Correo" id="logemail" autocomplete="off">
+                                <i class="input-icon uil uil-at"></i>
+                              </div>	
+                              <div class="form-group mt-2">
+                                <input type="password" name="logpass" class="form-style" placeholder="Ingresa tu Contraseña" id="logpass" autocomplete="off">
+                                <i class="input-icon uil uil-lock-alt"></i>
+                              </div>
+                              <a href="#" class="btn mt-4">Ingresar</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
     </main>
 
       <!-- Pie de Página -->
